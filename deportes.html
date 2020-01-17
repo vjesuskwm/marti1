@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Bootstrap</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<!-- fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<!-- icons -->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<!-- Nav -->
+		<ul class="nav justify-content-end text-white">
+			<li class="nav-item ml-5 mt-1">
+				<input class="d-none d-md-inline" type="text" placeholder="Search">
+				<i class="material-icons">search</i>
+			</li>
+			<li class="nav-item ml-5 mt-1">
+				<span  class="d-none d-md-inline">(55) 4545 8695</span>
+				<i class="material-icons">call</i>
+			</li>
+			<li class="nav-item ml-5 mt-1">
+				<span  class="d-none d-md-inline">Mi cuenta</span>
+				<i class="material-icons">account_box</i>
+			</li>
+		</ul>
+		<!-- Navbar -->
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="#">
+				<img src="img/logo.png" alt="Logo">
+			</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarNav">
+				<ul class="navbar-nav">
+					<li class="nav-item active">
+						<a class="nav-link" href="deportes.html">Deportes <span class="sr-only">(current)</span></a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="promociones.html">Promociones</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="ubica.html">Ubica tu tienda</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<main>
+		<!-- breadcrumb -->
+		<nav aria-label="breadcrumb" class="bread">
+		  <ol class="breadcrumb  bg-transparent">
+		    <li class="breadcrumb-item"><a href="#">Home</a></li>
+		    <li class="breadcrumb-item"><a href="#">Library</a></li>
+		    <li class="breadcrumb-item active" aria-current="page">Data</li>
+		  </ol>
+		</nav>
+		<h1 class="ml-5">Deportes</h1>
+		<!-- cards -->
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12 col-md-4">
+					<div class="card" style="width: 25rem;">
+					  <img src="img/card1.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>
+				</div>
+				<!-- card 2 -->
+				<div class="col-12 col-md-4">
+					<!-- 25rem indica el ancho de la imagen -->
+					<div class="card" style="width: 25rem;">
+					  <img src="img/card2.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>
+				</div>
+				<!-- card 3 -->
+				<div class="col-12 col-md-4">
+					<!-- 25rem indica el ancho de la imagen -->
+					<div class="card" style="width: 25rem;">
+					  <img src="img/card3.png" class="card-img-top" alt="...">
+					  <div class="card-body">
+					    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+					  </div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</main>
+	<footer>
+		<!-- jumbotron -->
+		<div class="jumbotron jumbotron-fluid text-white p-2 m-0">
+			<div class="container">
+				<h1>NEWSLETTER</h1>
+				<h6>Regístrate y recibe las mejores promociones</h6>
+				<button type="button" class="btn btn-primary btn-lg mt-4">SUSCRÍBETE</button>
+			</div>
+		</div>
+		<!-- collapsible para small-->
+		<div class="accordion d-md-none" id="accordionExample">
+			<!-- card 1 -->
+			<div class="card text-white">
+				<div class="card-header border-secondary border-top border-bottom mt-3" id="headingOne">
+					<h2 class="mb-0">
+						<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+							Collapsible Group Item #1
+						</button>
+					</h2>
+				</div>
+
+				<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+					<div class="card-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+				</div>
+			</div>
+			<!-- card 2 -->
+			<div class="card text-white">
+				<div class="card-header border-secondary border-top border-bottom mt-3" id="headingTwo">
+					<h2 class="mb-0">
+						<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+							Collapsible Group Item #2
+						</button>
+					</h2>
+				</div>
+				<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					<div class="card-body">
+						Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- para md -->
+		<div class="container-fluid">
+			<div class="row text-white negro">
+				<div class="col-6 d-none d-md-block">
+					<h5>Martí</h5>
+					<ul type="none">
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+					</ul>
+				</div>
+				<div class="col-6 d-none d-md-block">
+					<h5>Martí</h5>
+					<ul type="none">
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+						<li>Términos y Condiciones</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/app.js"></script>
+</html>
